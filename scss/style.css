@@ -1,0 +1,365 @@
+button {
+  padding: 20px;
+  border-radius: 90px;
+  border: 5px solid black;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+header {
+  -webkit-box-shadow: 0px 0px 9px -4px black;
+          box-shadow: 0px 0px 9px -4px black;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1470px;
+  width: 100%;
+  font-family: 'play';
+  margin: 0 auto;
+}
+
+.main-menu {
+  padding: 10px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.main-menu_left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.main-menu_right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-menu__link {
+  text-transform: capitalize;
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  margin: 15px 60px 15px 5px;
+}
+
+li {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-menu__logo {
+  margin: 15px 100px 15px 0px;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+.icon {
+  height: 30px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1470px;
+  width: 100%;
+  margin: 30px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-container__right {
+  max-width: 700px;
+  width: 100%;
+}
+
+.hero-container__left {
+  max-width: 700px;
+  width: 100%;
+  margin: auto 0;
+}
+
+.hero-container__left__text {
+  margin: 10px 0px 30px 0px;
+  font-size: 30px;
+}
+
+.hero-container__left__header {
+  font-size: 50px;
+}
+
+.hero-content__right {
+  margin: 30px 0px 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-content__right__text {
+  margin: 0px 30px 0px 30px;
+  display: block;
+}
+
+.hero-content__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-content__left__text {
+  margin: 0px 30px 0px 30px;
+  display: block;
+}
+
+.hero-content__img {
+  height: 260px;
+}
+
+.hero-content__header {
+  margin-bottom: 10px;
+}
+
+.second-part__top {
+  max-width: 1470px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.second-part__top__text {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.second-part__top__header {
+  font-size: 50px;
+}
+
+.second-part__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1470px;
+  width: 100%;
+  margin: 30px auto 30px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-part__down__img {
+  height: 550px;
+  width: 440px;
+}
+
+footer {
+  border-top: 5px solid black;
+}
+
+.footer-container {
+  max-width: 1470px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-container__text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  padding: 80px 0px 30px 0px;
+}
+
+.button:hover {
+  background-color: FE0811;
+}
+
+.second-part__down__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 250px 100px 246px 30px;
+  opacity: 0;
+  color: white;
+  font-size: 45px;
+  max-width: 440px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+.second-part__down__text:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.modalreg {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.leave-btn {
+  border: 0;
+  cursor: pointer;
+}
+
+.leave-btnreg {
+  border: 0;
+  cursor: pointer;
+}
+
+.inp-modal {
+  max-width: 350px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  border: 3px solid black;
+  background: none;
+  margin-bottom: 20px;
+}
+
+.container-modal {
+  max-width: 700px;
+  width: 100%;
+  background-color: white;
+  margin: 300px auto;
+  border-radius: 40px;
+}
+
+.container-modalreg {
+  max-width: 700px;
+  width: 100%;
+  background-color: white;
+  margin: 200px auto;
+  border-radius: 40px;
+}
+
+.mini-div {
+  text-align: right;
+}
+
+.form-modal {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+
+.leave-btn {
+  border-radius: 20px;
+  margin: 10px 15px;
+}
+
+.leave-btn:hover {
+  background: inherit;
+  color: black;
+}
+
+.leave-btnreg {
+  border-radius: 20px;
+  margin: 10px 15px;
+}
+
+.leave-btnreg:hover {
+  background: inherit;
+  color: black;
+}
+
+.mid-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.trans-link {
+  font-family: 'Inter', sans-serif;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.trans-linkreg {
+  font-family: 'Inter', sans-serif;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.firstint {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+@mixin button{
+    button{
+        padding: 20px;
+        border-radius: 90px;
+        border: 5px solid $black;
+        background: none;
+        cursor: pointer;
+        font-size: 20px;
+        align-items: center;
+        color: $black;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+    }
+    button:hover{
+        background: $black;
+        color: $white;
+    }
+}
+@mixin header{
+    header{
+    box-shadow: 0px 0px 9px -4px $black;
+    }
+}
+@mixin p{
+    p{
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+    }
+}
+@mixin h2{
+    h2{
+        font-size: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+    }
+}
